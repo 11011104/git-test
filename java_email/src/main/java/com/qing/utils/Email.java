@@ -11,7 +11,7 @@ import java.util.List;
 
 public class Email {
     public static void main(String[] args) throws Exception{
-      /*  SimpleEmail email = new SimpleEmail();
+        SimpleEmail email = new SimpleEmail();
         email.setHostName("smtp.qq.com");
         email.setSmtpPort(465);
         email.setAuthenticator(new DefaultAuthenticator("1305354640@qq.com", "mdladxibyvlwjghc"));
@@ -21,8 +21,8 @@ public class Email {
         email.setMsg("This is a test mail ... :-)");
         email.addTo("1876855154@qq.com");
         email.send();
-        System.out.println("发送成功！");*/
-        // Create the attachment
+        System.out.println("发送成功！");
+      /*  // Create the attachment
         EmailAttachment attachment = new EmailAttachment();
         attachment.setPath("C:\\Users\\qing\\Pictures\\Camera Roll\\love.jpg");
         attachment.setDisposition(EmailAttachment.ATTACHMENT);
@@ -50,6 +50,6 @@ public class Email {
 
         // send the email
         email.send();
-        System.out.println("发送成功！");
+        System.out.println("发送成功！");*/
     }
 }
